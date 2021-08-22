@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Wellcome to project</title>
+</head>
+<body>
+
+{% block content %}
+
+<h1 style="color:blue"> Wellcome To Application</h1>
+
+<ul>
+    
+    <li><a href="{% url 'home' %}">Home</a></a></li>
+    <li><a href="{% url 'about' %}">About</a></a></li>
+</ul>
+
+
+
+
+{% endblock %}
+
+</body>
+
+</html>
